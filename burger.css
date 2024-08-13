@@ -1,0 +1,160 @@
+*{
+margin: 0%;
+padding: 0%;
+
+
+}
+
+.body{
+
+background-image: url(/burger4.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+
+.container{
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+}
+
+
+.container h1{
+
+    color: orangered;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.navbar ul li{
+
+
+    display: inline;
+    padding: 19px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+
+text-decoration: none;
+color: aliceblue;
+padding: 4px;
+
+
+
+}
+
+
+.navbar ul li  a:hover{
+
+box-shadow: 0 3px 50px orangered inset;
+transition-duration: 1s;
+
+}
+
+
+.content{
+
+position: absolute;
+color: #fff;
+top: 40%;
+left: 30%;
+
+
+}
+
+
+.content h3{
+
+font-family: sans-serif;
+font-size: 30px;
+margin-left: 22%;
+
+}
+
+
+.content h3:hover{
+
+color: orangered;
+transition-duration: 1s;
+
+
+    
+}
+
+
+.content h1:hover{
+
+    color: orangered;
+    
+transition-duration: 1s;
+    
+        
+    }
+    
+    .content p:hover{
+
+        color: orangered;
+        
+        transition-duration: 1s;
+        
+            
+        }
+        
+.content h1{
+
+font-size: 50px;
+margin-left: 10px;
+
+}
+
+.content p{
+
+    text-align: center;
+    margin-top: 12px;
+}
+
+
+.search{
+
+position: absolute;
+margin-top: 26%;
+margin-left: 42%;
+
+}
+
+.search input{
+
+outline: none;
+border: none;
+padding: 12px 40px;
+size: 1rem;
+width: 100%;
+
+
+}
+
+
+.submit{
+
+position: absolute;
+margin-top: 30%;
+margin-left: 48%;
+}
+
+.submit a{
+
+text-decoration: none;
+color: #fff;
+padding: 12px 25px;
+background-color: orangered;
+
+
+}
